@@ -1,0 +1,5 @@
+---
+- include_tasks: install.yml
+  when: installed_semanage is not defined
+
+- include_tasks: fcontext.yml

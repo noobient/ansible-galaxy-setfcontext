@@ -1,0 +1,6 @@
+---
+- name: Install semanage
+  dnf:
+    name: policycoreutils-python-utils
+    state: latest
+  register: installed_semanage
