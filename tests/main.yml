@@ -1,0 +1,14 @@
+---
+- hosts: 127.0.0.1
+  tasks:
+    - name: Create /var/www/db
+      file:
+        path: /var/www/db
+        state: directory
+        mode: '0755'
+    - include_role:
+        name: "{{ playbook_dir.split('/')[:-1] | last }}"
+      vars:
+        path: '/var/www/db'
+        type: 'httpd_sys_rw_content_t'
+        pattern: "/var/www/db(/.*)?"
