@@ -2,4 +2,13 @@
 - include_tasks: install.yml
   when: installed_semanage is not defined
 
+# semanage fails if disabled
+- name: Check if SELinux is enabled
+  command:
+    cmd: selinuxenabled
+  changed_when: false
+  failed_when: false
+  register: selinux_status
+
 - include_tasks: fcontext.yml
+  when: selinux_status.rc == 0
