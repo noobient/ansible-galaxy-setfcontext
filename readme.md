@@ -31,10 +31,10 @@ N/A
 
 | Platform | Support | Status |
 |---|---|---|
-| Linter | ✅ | [![Lint](https://github.com/noobient/ansible-setfcontext/actions/workflows/lint.yml/badge.svg)](https://github.com/noobient/ansible-setfcontext/actions/workflows/lint.yml) |
-| AlmaLinux 8 | ✅ | [![AlmaLinux 8](https://github.com/noobient/ansible-setfcontext/actions/workflows/almalinux-8.yml/badge.svg)](https://github.com/noobient/ansible-setfcontext/actions/workflows/almalinux-8.yml) |
-| AlmaLinux 9 | ✅ | [![AlmaLinux 9](https://github.com/noobient/ansible-setfcontext/actions/workflows/almalinux-9.yml/badge.svg)](https://github.com/noobient/ansible-setfcontext/actions/workflows/almalinux-9.yml) |
-| Fedora 37 | ✅ | [![Fedora 37](https://github.com/noobient/ansible-setfcontext/actions/workflows/fedora-37.yml/badge.svg)](https://github.com/noobient/ansible-setfcontext/actions/workflows/fedora-37.yml) |
+| Linter | ✅ | [![Lint](https://github.com/noobient/ansible-galaxy-setfcontext/actions/workflows/lint.yml/badge.svg)](https://github.com/noobient/ansible-galaxy-setfcontext/actions/workflows/lint.yml) |
+| AlmaLinux 8 | ✅ | [![AlmaLinux 8](https://github.com/noobient/ansible-galaxy-setfcontext/actions/workflows/almalinux-8.yml/badge.svg)](https://github.com/noobient/ansible-galaxy-setfcontext/actions/workflows/almalinux-8.yml) |
+| AlmaLinux 9 | ✅ | [![AlmaLinux 9](https://github.com/noobient/ansible-galaxy-setfcontext/actions/workflows/almalinux-9.yml/badge.svg)](https://github.com/noobient/ansible-galaxy-setfcontext/actions/workflows/almalinux-9.yml) |
+| Fedora 37 | ✅ | [![Fedora 37](https://github.com/noobient/ansible-galaxy-setfcontext/actions/workflows/fedora-37.yml/badge.svg)](https://github.com/noobient/ansible-galaxy-setfcontext/actions/workflows/fedora-37.yml) |
 | Ubuntu 18.04 | ❌ | N/A |
 | Ubuntu 20.04 | ❌ | N/A |
 | Ubuntu 22.04 | ❌ | N/A |
