@@ -6,7 +6,7 @@
   changed_when: false
   register: item_record
 
-- name: Add file context record
+- name: Add file context record # noqa no-changed-when
   command:
     cmd: semanage fcontext --add -t "{{ type }}" "{{ pattern }}"
   when: item_record.rc != 0
@@ -14,7 +14,7 @@
 
 # example entry:
 # /opt/redmine-.*/log(/.*)?  all files  system_u:object_r:var_log_t:s0
-- name: Modify file context record
+- name: Modify file context record # noqa no-changed-when
   command:
     cmd: semanage fcontext --modify -t "{{ type }}" "{{ pattern }}"
   when: (item_record.rc == 0) and (item_record.stdout.split(":")[2] != type)
