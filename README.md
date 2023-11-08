@@ -16,7 +16,7 @@ This role lets you set the SELinux fcontext for the given pattern and apply it t
 
 ```yml
 - include_role:
-    name: bviktor.setfcontext
+    name: noobient.setfcontext
   vars:
     path: '/var/www/db'
     type: 'httpd_sys_rw_content_t'
