@@ -24,4 +24,4 @@
   command:
     cmd: "restorecon -rv {{ path }}"
   register: restorecon_cmd
-  changed_when: restorecon_cmd.stdout|length
+  changed_when: restorecon_cmd.stdout | length > 0
